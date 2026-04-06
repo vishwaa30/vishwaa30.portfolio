@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+    position: fixed;
+    width: 100%;
+}
+
+header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #38bdf8;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: white;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+/* Certificates */
+.cert-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Skills */
+.skills span {
+    margin: 10px;
+    padding: 10px 15px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 20px;
+}
+
+/* Contact */
+.contact {
+    background: #020617;
+}
